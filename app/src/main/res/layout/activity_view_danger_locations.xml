@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57e1fffd"
+    android:orientation="vertical"
+    tools:context="com.admin.friendsandfamilylocator.ViewDangerLocations">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/dToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="#00789c"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:title="View Danger Locations"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#ffffff" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        tools:context="com.admin.friendsandfamilylocator.FriendsLocationMap" />
+
+
+    <ListView
+        android:id="@+id/dangerLocationsList"
+        android:layout_width="match_parent"
+        android:background="#ece9c9"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"></ListView>
+
+</LinearLayout>

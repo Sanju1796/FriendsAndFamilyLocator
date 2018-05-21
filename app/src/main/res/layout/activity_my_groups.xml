@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.admin.friendsandfamilylocator.MyGroups">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/myGroupToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="#ffffff"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        android:background="#00789c">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/myGroupsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+    </ListView>
+
+</LinearLayout>

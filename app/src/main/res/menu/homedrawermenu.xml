@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.admin.friendsandfamilylocator.Home">
+
+    <item
+        android:id="@+id/newGroup"
+        android:orderInCategory="100"
+        android:title="New Group"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_group_add_black_24dp"/>
+
+    <item
+        android:id="@+id/myGroups"
+        android:orderInCategory="100"
+        android:title="My Groups"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_group_black_24dp"/>
+
+    <item
+        android:id="@+id/meetingPlan"
+        android:orderInCategory="100"
+        android:title="Plan a Meeting"
+        app:showAsAction="never"
+        android:icon="@drawable/meetingplan"/>
+
+    <item
+        android:id="@+id/viewMeetings"
+        android:orderInCategory="100"
+        android:title="View Meetings"
+        app:showAsAction="never"
+        android:icon="@drawable/viewmeeting"/>
+
+    <item
+        android:id="@+id/myInvitations"
+        android:orderInCategory="100"
+        android:title="My Invitations"
+        app:showAsAction="never"
+        android:icon="@drawable/invites"/>
+
+    <item
+        android:id="@+id/markDangerous"
+        android:orderInCategory="100"
+        android:title="Mark Danger Location"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_add_alert_black_24dp"/>
+
+    <item
+        android:id="@+id/viewDangerLocations"
+        android:orderInCategory="100"
+        android:title="View Danger Locations"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_warning_black_24dp"/>
+
+
+    <item
+        android:id="@+id/panicAlert"
+        android:orderInCategory="100"
+        android:title="Panic Alert"
+        app:showAsAction="never"
+        android:icon="@drawable/panic"/>
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never"
+        android:icon="@drawable/share"/>
+
+
+</menu>

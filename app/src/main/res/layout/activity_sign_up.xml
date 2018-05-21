@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0a6f8e"
+    tools:context="com.admin.friendsandfamilylocator.SignUp">
+
+
+    <TextView
+        android:id="@+id/stepOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step 1\n Phone No. Verification"
+        android:textSize="25dp"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="165dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/numverify"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/newborder">
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
+        android:textColorHighlight="#fff"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:hint="Enter Phone Number"/>
+
+    <Button
+        android:id="@+id/sendOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send OTP"
+        android:textSize="20dp"
+        android:background="#fff"
+        android:layout_margin="10dp"
+        android:onClick="send"/>
+
+    <TextView
+        android:id="@+id/codeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Verification Code"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:textColor="#FFFF"/>
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
+        android:textColorHighlight="#fff"
+        android:layout_margin="10dp"
+        android:hint="Enter OTP"/>
+
+    <Button
+        android:id="@+id/verifyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:textSize="20dp"
+        android:background="#fff"
+        android:layout_margin="10dp"
+        android:onClick="verify"/>
+
+    </LinearLayout>
+
+</LinearLayout>

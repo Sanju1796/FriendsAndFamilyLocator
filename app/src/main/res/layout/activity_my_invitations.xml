@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#57e1fffd"
+    tools:context="com.admin.friendsandfamilylocator.MyInvitations">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/invitationToolbar"
+        app:titleTextColor="#fff"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        android:background="#00789c">
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/invitationList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

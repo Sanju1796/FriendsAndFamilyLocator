@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FriendsAndFamilyLocator</string>
+    <string name="title_activity_location_maps">Map</string>
+    <string name="title_activity_friends_location_map">Map</string>
+</resources>

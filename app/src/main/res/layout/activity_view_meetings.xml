@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#57e1fffd"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.admin.friendsandfamilylocator.ViewMeetings">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/viewMeetingsToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        app:title="View Meetings"
+        android:background="#00789c"
+        app:titleTextColor="#ffffff"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ListView
+        android:id="@+id/viewMeetingsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

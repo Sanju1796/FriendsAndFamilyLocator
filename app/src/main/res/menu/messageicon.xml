@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.admin.friendsandfamilylocator.MeetingDetails">
+
+    <item
+        android:id = "@+id/messages"
+        android:orderInCategory="103"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:title="message"/>
+
+</menu>

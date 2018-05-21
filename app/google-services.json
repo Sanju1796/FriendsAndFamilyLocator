@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "694303310156",
+    "firebase_url": "https://friendsandfamilylocator-cbb3e.firebaseio.com",
+    "project_id": "friendsandfamilylocator-cbb3e",
+    "storage_bucket": "friendsandfamilylocator-cbb3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694303310156:android:4cc9d6b2ef6110ec",
+        "android_client_info": {
+          "package_name": "com.admin.friendsandfamilylocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694303310156-d49luu3565obo11tvc0bd9lq7hs15dh8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.admin.friendsandfamilylocator",
+            "certificate_hash": "2d537ee572b7a0db11d52a73c91f8f05d75ed4a0"
+          }
+        },
+        {
+          "client_id": "694303310156-dllo7dr52eomulfuchoocc7rpvvnqg8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXksWn67UWQBLXILR88_NGvACKq1HMdyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694303310156-dllo7dr52eomulfuchoocc7rpvvnqg8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

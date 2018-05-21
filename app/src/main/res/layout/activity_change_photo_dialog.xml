@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#57e1fffd"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image Preview"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#00789c"
+            android:textColor="#fff"/>
+
+        <ImageView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="10dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="cancel"
+            android:text="cancel"
+            android:textSize="15dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="#fff"
+            android:layout_marginLeft="130dp"/>
+
+        <Button
+            android:id="@+id/okbutton"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cameraButton"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="#fff"
+            android:onClick="ok"
+            android:text="Ok"
+            android:textSize="15dp"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
